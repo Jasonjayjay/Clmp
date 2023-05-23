@@ -1,0 +1,104 @@
+.about-section-container{
+    max-height: 1600px;
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    flex-direction: column;
+    
+    background-color: #A1C8FF;
+  }
+  .header2{
+    margin-bottom: 79px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;  
+  }
+  .body1 {
+    width: 50%;
+    color: black;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .container {
+    margin-top: 40px;
+    display: flex;
+    height: 600px;
+    column-gap: 10px;
+  }
+  .box {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin: 5rem;
+    padding: 1rem 3rem;
+    text-align: left;
+    width: 50%; 
+    width: 800px;
+    height: 400px;
+    color:#fff;
+    background-color: #171C51;
+  }
+  .compbox1 img {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .compbox1 h1{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: clamp(1rem, 5vw, 2rem);
+  }
+  .compbox1 p {
+    margin-top: 30px;
+    margin-left: 40px;
+    line-height: 1.5;
+    display: inline-block;
+    font-size: clamp(1.4rem, 4vw, 1.3rem);
+  }
+
+
+@media (max-width:500px){
+    .about-section-container{
+        margin: 50px 10px 30px 10px;
+        flex-direction: column;
+        align-items: center;
+        height: 1500px;
+        width: 100%;    
+    }
+    .header2{
+        text-align: start;
+        width: 80%;
+        font-size: 35px;
+        line-height: 55px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .body1{
+        margin-bottom: 20px;
+    }
+    .body1{
+        text-align: justify;
+        width: 80%;
+        font-size: 17px;
+        line-height: 33px;
+    }
+    .container{
+      margin: 50px 10px 30px 10px;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      
+    }
+    .box{
+      flex: 1;
+      width: 95%;
+      flex-direction: column;
+      align-items: center;
+    }
+}

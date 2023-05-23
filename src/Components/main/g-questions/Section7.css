@@ -1,0 +1,84 @@
+.contact-page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.2rem 0rem;
+    background-color: #d3d3d3;
+    height: 500px;
+}
+.form-header {
+    max-width: 900px !important;
+    font-size: clamp(1rem, 10vw, 3rem); 
+    text-align: center;
+    color:#092748;
+}
+.subscribe-container{
+    display: inline-block;
+    width: 900px;
+  
+    
+}
+.contact-form-container {
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    
+ }
+.contact-form-container::placeholder {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+}
+.subscribe-button{
+      padding: 1rem 2.5rem;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      font-weight: 600;
+      background-color: #171C51;
+      color: white;
+      transition: 0.2s;
+      display: inline-block;
+      margin-left: 25px;    
+}
+
+@media (max-width:500px){
+    .contact-page-wrapper{
+        min-height: auto;
+        padding-left: 30px;
+    }
+    .form-header{
+        height: auto;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        width: 100%;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .subscribe-container, .contact-form-container::placeholder{
+        margin-top: 25px;
+        margin-bottom: 60px;
+        font-size: 10.5px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contact-form-container{
+        width: 55%;
+        height: 38px;
+    }
+    .subscribe-button{
+        width: 30%;
+        height: 38px;
+        font-size: 12px;
+    }
+}

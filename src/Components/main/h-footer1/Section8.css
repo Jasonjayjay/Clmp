@@ -1,0 +1,105 @@
+.footer1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-footer{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 464.92645263671875px;
+    width: 555.27862548828125px;
+    border-radius: 0px;
+  }
+  .img1-footer{
+    margin-top: 170px;
+    margin-left: 70px;
+    height: 99px;
+    width: 99px;
+    border-radius: 0px;
+  }
+  .footer-details{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 70px;
+  }
+  .footer-item1{
+    color: #13375B;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+  }
+  .footer-item2{
+    color: #13375B;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 73px;
+    margin-left: 40px;
+    margin-right: 314px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    
+  }
+  .social{
+    display: flex;
+    margin-top: 9px;
+    gap:22px;
+  }
+
+  @media (max-width:500px){
+    .footer1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .img-footer{
+        margin: 0;
+        margin-bottom: 10px;
+        width: 65%;
+        height: auto;
+    }
+    .footer-details{
+        width: 85%;
+        margin-bottom: 35px;
+    }
+    .footer-item1, .footer-item2{
+        gap: 3px;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        width:50%;
+    }
+    .logo-footer{
+        width: 90%;
+        margin-bottom: 3px;
+    }
+    .footer-item2{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .footer-h5{
+        margin-bottom: 5px;
+    }
+    .footer-body{
+        width: 115%;
+    }
+    .social{
+        gap: 15px;
+        margin-top: 2px;
+    }
+    .insta, .twitter, .linkedin, .youtube{
+        width: 12%;
+    }
+}

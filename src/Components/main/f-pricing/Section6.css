@@ -1,0 +1,224 @@
+.section6{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 121px 106px 149px 107px;
+    align-items: center;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 110px;
+}
+
+.choice-btn1{
+    padding: 1rem 2rem; 
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: black;
+    transition: 0.2s;
+    border-color:#171C51;
+}
+.choice-btn1:hover{
+    background-color: #171C51;
+    color: white;
+}
+.choice-btn2{
+  padding: 1rem 2.6rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: black;
+  transition: 0.2s;
+}
+.plans{
+    display: flex;
+    margin: auto;
+}
+.plan1, .plan2{
+    height: 550px;
+    width: 388px;
+    border-radius: 5.333333492279053px;
+    padding: 53px 32px 53px 32px;
+    display: flex;
+    flex-direction: column;
+}
+.plan2{
+    background-color: #092748;
+    border-radius: 16px;
+    color:#ffffff;
+}
+.plan-head, .plan-head2{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #191D23;
+}
+.plan-body, .plan-body2{
+    margin-top: 15px;
+    color: #505056;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.plan-price{
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+}
+.plan-num, .plan-num2{
+    color: #191D23;
+    font-family: Nunito;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.01em;
+    
+}
+.plan-month, .plan-month2{
+    color: #4B5768;
+    margin-left: 11px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.plan-btn{
+    height: 58.66666793823242px;
+    width: 324px;
+    margin: 32px auto 52px auto;
+    border-radius: 5.333333492279053px;
+    padding: 8px 16px 8px 16px;
+    background-color: #ffffff;
+    border: 2px solid #2112A0;
+    color: #2112A0;
+    font-family: Rubik;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.plan-list{
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.plan-list-check, .plan-list-cross,
+.plan-list-check2, .plan-list-cross2{
+    display: flex;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.plan-list-check{
+    color: #505056;
+}
+.plan-list-cross{
+    color: #A0ABBB;
+}
+.plan1-check, .plan1-cross,
+.plan2-check, .plan2-cross{
+    margin-right: 23px;
+}
+.plan-head2, .plan-body2, .plan-num2,
+.plan-month2, .plan-list-check2, 
+.plan-list-cross2{
+    color:white;
+}
+.plan-btn2{
+    height: 58.66666793823242px;
+    width: 324px;
+    margin-top: 32px;
+    border-radius: 5.333333492279053px;
+    padding: 8px 16px 8px 16px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: #1D4ED8;
+    font-family: Rubik;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn-container{
+    background-color: blue;
+}
+@media (max-width:500px){
+    .section6{
+      margin: 50px 10px 30px 10px;
+      align-items: center;
+      
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .button-group {
+        margin-top: 10px;
+      }
+    
+      .button-group button {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+    .plans{
+        flex-direction: column;
+    }
+    .plan1, .plan2{
+        height: auto;
+        padding: 55px 30px 55px 30px;
+        border-radius: 0;
+        width: 100%;
+    }
+    .plan-price{
+        margin-top: 20px;
+    }
+    .plan-num, .plan-num2{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .plan-btn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    .plan-list{
+        gap: 15px;
+    }
+    .plan1-check, .plan1-cross,
+    .plan2-check, .plan2-cross{
+        margin-right: 15px;
+    }
+}
+@media (max-width:300px) {
+    .plan-btn{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    margin: 35px auto 82px auto;
+    gap: 14px;
+    margin-top: 130px;
+}
+.part1, .part2{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+.aws{
+    margin-left: 63px;
+}
+.athena{
+    margin-right: 23px;
+}
+@media (max-width:500px) {
+    .section2{
+        flex-direction: column;
+        margin:0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        align-items: center;
+        gap: 20px;
+    }
+    .google_cloud, .azure, 
+    .software1, .lms{
+        margin: auto;
+        width: 32%;
+    }
+    .aws{
+        margin: auto;
+        width: 18%;
+    }
+    .athena{
+        margin: auto;
+        width: 42%;
+    }
+    .part1, .part2{
+        width: 85%;
+    }
+}

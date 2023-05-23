@@ -1,0 +1,17 @@
+.footer-text{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color: #171C51;
+  }
+@media (max-width:500px) {
+    .footer2{
+        padding: 10px 15px 10px 15px;
+    }
+    .footer-text{
+        font-size: 13px;
+    }
+}
